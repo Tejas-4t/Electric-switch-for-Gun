@@ -1,0 +1,15 @@
+ // Online C compiler to run C program online
+#include <stdio.h>
+void main(){
+    int GUN_OPERATOR ;
+    printf("enter GUN_OPERATOR age  (between 21 to 80):");
+    scanf("%d",&GUN_OPERATOR);
+    printf("you have entered %d GUN_OPERATOR age\n"
+    ,GUN_OPERATOR);
+    if(GUN_OPERATOR <21){
+        printf("Turn off gun switch");
+    }
+    else{
+        printf("Turn on gun switch");
+    }
+}
